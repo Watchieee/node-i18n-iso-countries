@@ -60,7 +60,7 @@ var i18n = {
     "DJ": "Gibuti",
     "DM": "Dominica",
     "DO": "Repubblica Dominicana",
-    "CE": "Ecuador",
+    "EC": "Ecuador",
     "EG": "Egitto",
     "SV": "El Salvador",
     "GQ": "Guinea Equatoriale",
