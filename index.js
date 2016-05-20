@@ -11,7 +11,8 @@ var langs = {
   "fi" : require("./fi"),
   "et" : require("./et"),
   "ar" : require("./ar"),
-  "it" : require("./it")
+  "it" : require("./it"),
+  "sl" : require("./sl"),
 };
 
 
