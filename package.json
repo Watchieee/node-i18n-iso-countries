@@ -24,8 +24,14 @@
 		"fi",
 		"et",
 		"it",
-    "ar",
-		"sl"
+    	"ar",
+		"sl",
+		"cz",
+		"ee",
+		"hu",
+		"lv",
+		"lt",
+		"sk"
 	],
 	"author": {
 		"name": "Andreas Wittig",

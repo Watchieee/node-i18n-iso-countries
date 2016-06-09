@@ -305,19 +305,97 @@ describe("ar", function () {
             });
         });
     });
-     describe("sl", function () {
-        var lang = "sl";
-        it("complete (to less)", function () {
-            Object.keys(i18niso.getAlpha2Codes()).forEach(function (code) {
-                assert.notEqual(i18niso.getName(code, lang), undefined, "missing entry for " + code);
-            });
-        });
-        it("complete (too much)", function () {
-            Object.keys(i18niso.getNames(lang)).forEach(function (code) {
-                assert.notEqual(i18niso.getAlpha2Codes()[code], -1, "entry for " + code + " is too much");
-            });
-        });
-    });
+	describe("sl", function () {
+		var lang = "sl";
+		it("complete (to less)", function () {
+			Object.keys(i18niso.getAlpha2Codes()).forEach(function (code) {
+				assert.notEqual(i18niso.getName(code, lang), undefined, "missing entry for " + code);
+			});
+		});
+		it("complete (too much)", function () {
+			Object.keys(i18niso.getNames(lang)).forEach(function (code) {
+				assert.notEqual(i18niso.getAlpha2Codes()[code], -1, "entry for " + code + " is too much");
+			});
+		});
+	});
+	describe("cz", function () {
+		var lang = "cz";
+		it("complete (to less)", function () {
+			Object.keys(i18niso.getAlpha2Codes()).forEach(function (code) {
+				assert.notEqual(i18niso.getName(code, lang), undefined, "missing entry for " + code);
+			});
+		});
+		it("complete (too much)", function () {
+			Object.keys(i18niso.getNames(lang)).forEach(function (code) {
+				assert.notEqual(i18niso.getAlpha2Codes()[code], -1, "entry for " + code + " is too much");
+			});
+		});
+	});
+	describe("ee", function () {
+		var lang = "ee";
+		it("complete (to less)", function () {
+			Object.keys(i18niso.getAlpha2Codes()).forEach(function (code) {
+				assert.notEqual(i18niso.getName(code, lang), undefined, "missing entry for " + code);
+			});
+		});
+		it("complete (too much)", function () {
+			Object.keys(i18niso.getNames(lang)).forEach(function (code) {
+				assert.notEqual(i18niso.getAlpha2Codes()[code], -1, "entry for " + code + " is too much");
+			});
+		});
+	});
+	describe("hu", function () {
+		var lang = "hu";
+		it("complete (to less)", function () {
+			Object.keys(i18niso.getAlpha2Codes()).forEach(function (code) {
+				assert.notEqual(i18niso.getName(code, lang), undefined, "missing entry for " + code);
+			});
+		});
+		it("complete (too much)", function () {
+			Object.keys(i18niso.getNames(lang)).forEach(function (code) {
+				assert.notEqual(i18niso.getAlpha2Codes()[code], -1, "entry for " + code + " is too much");
+			});
+		});
+	});
+	describe("lv", function () {
+		var lang = "lv";
+		it("complete (to less)", function () {
+			Object.keys(i18niso.getAlpha2Codes()).forEach(function (code) {
+				assert.notEqual(i18niso.getName(code, lang), undefined, "missing entry for " + code);
+			});
+		});
+		it("complete (too much)", function () {
+			Object.keys(i18niso.getNames(lang)).forEach(function (code) {
+				assert.notEqual(i18niso.getAlpha2Codes()[code], -1, "entry for " + code + " is too much");
+			});
+		});
+	});
+	describe("lt", function () {
+		var lang = "lt";
+		it("complete (to less)", function () {
+			Object.keys(i18niso.getAlpha2Codes()).forEach(function (code) {
+				assert.notEqual(i18niso.getName(code, lang), undefined, "missing entry for " + code);
+			});
+		});
+		it("complete (too much)", function () {
+			Object.keys(i18niso.getNames(lang)).forEach(function (code) {
+				assert.notEqual(i18niso.getAlpha2Codes()[code], -1, "entry for " + code + " is too much");
+			});
+		});
+	});
+	describe("sk", function () {
+		var lang = "sk";
+		it("complete (to less)", function () {
+			Object.keys(i18niso.getAlpha2Codes()).forEach(function (code) {
+				assert.notEqual(i18niso.getName(code, lang), undefined, "missing entry for " + code);
+			});
+		});
+		it("complete (too much)", function () {
+			Object.keys(i18niso.getNames(lang)).forEach(function (code) {
+				assert.notEqual(i18niso.getAlpha2Codes()[code], -1, "entry for " + code + " is too much");
+			});
+		});
+	});
 	describe("unsupported language", function () {
 		var lang = "unsupported";
 		it("get name", function () {
