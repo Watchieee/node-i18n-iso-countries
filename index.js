@@ -13,7 +13,7 @@ var langs = {
     "ar": require("./ar"),
     "it": require("./it"),
     "sl": require("./sl"),
-    "cz": require("./cz"),
+    "cs": require("./cs"),
     "ee": require("./ee"),
     "hu": require("./hu"),
     "lv": require("./lv"),

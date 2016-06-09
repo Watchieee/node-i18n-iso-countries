@@ -318,8 +318,8 @@ describe("ar", function () {
 			});
 		});
 	});
-	describe("cz", function () {
-		var lang = "cz";
+	describe("cs", function () {
+		var lang = "cs";
 		it("complete (to less)", function () {
 			Object.keys(i18niso.getAlpha2Codes()).forEach(function (code) {
 				assert.notEqual(i18niso.getName(code, lang), undefined, "missing entry for " + code);
