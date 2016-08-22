@@ -19,7 +19,7 @@ var langs = {
     "lv": require("./lv"),
     "sk": require("./sk"),
     "lt": require("./lt"),
-    "jp": require("./jp")
+    "ja": require("./ja")
 };
 
 /*

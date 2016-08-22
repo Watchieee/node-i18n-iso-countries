@@ -396,8 +396,8 @@ describe("ar", function () {
 			});
 		});
 	});
-	describe("jp", function () {
-		var lang = "jp";
+	describe("ja", function () {
+		var lang = "ja";
 		it("complete (to less)", function () {
 			Object.keys(i18niso.getAlpha2Codes()).forEach(function (code) {
 				assert.notEqual(i18niso.getName(code, lang), undefined, "missing entry for " + code);
