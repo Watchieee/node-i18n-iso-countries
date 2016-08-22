@@ -18,7 +18,8 @@ var langs = {
     "hu": require("./hu"),
     "lv": require("./lv"),
     "sk": require("./sk"),
-    "lt": require("./lt")
+    "lt": require("./lt"),
+    "jp": require("./jp")
 };
 
 /*
